@@ -1,0 +1,11 @@
+Download model from the below url.
+
+https://www.dropbox.com/s/8jnulb2l4v7ikir/model.zip
+
+create output_model directory
+unzip and move to output_model directory
+
+run training.py and open the ip  on browser
+upload any pdf files to get trained
+
+run main.py and open the ip address on browser and you can ask any question

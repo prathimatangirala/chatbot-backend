@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Chicago State University</title>
+    </head>
+
+    <body>
+        <iframe id="website-mock" src='https://csu.edu' style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;">
+            Your browser doesn't support iframes
+        </iframe>
+
+        <div id="agentz-chatbot-954328b7-8cdd-41c4-ae40-6aa791ee6fba"></div>
+
+<!--        <script type="text/javascript" src="https://chatbot.agentz.ai/agentz-chatbot.js?botUrl=https://chatbot.agentz.ai&businessAgent=954328b7-8cdd-41c4-ae40-6aa791ee6fba"></script>-->
+
+        <script>
+        document.onreadystatechange = function(){
+          if (document.readyState === "complete") {
+            var resource = document.createElement('script');
+            resource.defer = "true";
+            resource.src = "https://chatbot.agentz.ai/agentz-chatbot.js?botUrl=https://chatbot.agentz.ai&businessAgent=954328b7-8cdd-41c4-ae40-6aa791ee6fba";
+            var script = document.getElementsByTagName('script')[0];
+            script.parentNode.insertBefore(resource, script);
+          }
+      }
+    </script>
+
+    </body>
+
+</html>
